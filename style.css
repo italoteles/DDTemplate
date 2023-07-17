@@ -36,7 +36,7 @@
   .glass {
     
     min-height: 80vh;
-    max-height: 80vh;
+    /* max-height: 80vh; */
     width: 60%;
     background: linear-gradient(
       to right bottom,
@@ -108,13 +108,16 @@
   
   .pro img {
     position: absolute;
+    width: 7rem;
+    height: 7rem;
     top: -10%;
     right: 10%;
   }
   .pro h2 {
-    width: 40%;
+    width: 50%;
     color: white;
     font-weight: 600;
+    font-size: large;
   }
   
   /* GAMES */
@@ -174,6 +177,8 @@
   .card-info {
     display: flex;
     flex-direction: column;
+    width: 60%;
+    
     justify-content: space-between;
   }
   
